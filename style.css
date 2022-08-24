@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.container{
+    background-color: black;
+}
+
+/* <!-- Header Starts --> */
+
+.logo{
+    margin-top: 50px;
+    margin-left: 5%;
+    width: 100px;
+    filter: invert(16%) sepia(99%) saturate(7404%) hue-rotate(4deg) brightness(95%) contrast(118%);
+}
+
+.nav div{
+    display: inline-block;
+}
+
+#nav-items{
+    position: relative;
+    left:40%;
+    top: -40px;
+}
+
+a.nav-item{
+    padding: 0px 30px;
+    font-size: 15px;
+    color:white; 
+    text-transform:uppercase ;
+}
+
+a.nav-item:first-child:after{
+    content: "▼";
+    color:white; 
+    font-size: 11px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+a.nav-item:last-child:after{
+    content: "▼";
+    color:white; 
+    font-size: 11px;
+    padding-top: 8px;
+    padding-left: 5px;
+}
+
+
+/* <!-- Section 1 --> */
+
+.section-1{
+    display: flex;
+    flex-direction: row-reverse;
+    height:80vh;
+    justify-content: flex-end;
+}
+
+
+.intro{
+    margin-top: 100px;
+    color:#c91b28;
+    font-size: 20px;
+    letter-spacing: 1.8px;
+}
+
+.heading{
+    font-size: 60px;
+    color: white;
+    letter-spacing: 1.8px;
+}
+
+.cont-section-1 p{
+    margin-top: 10px;
+    color:#d7cfcf;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+}
+
+
+.cont-section-1>button{
+    margin-top: 40px;
+    background-color: #c91b28;
+    border:none;
+    color:white;
+    font-size: 18px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.img-section-1>img{
+    position: relative;
+    top:-40px;
+    height:85vh;
+    width: 45vw;
+}
+
+
+/* <!-- Section 2 --> */
+
+.section-2{
+    width:50vw;
+    background-color: #181818;
+    padding-bottom: 100px;
+}
+
+.top-section-2{
+    display: flex;
+    flex-direction: row;
+    width:95vw;
+    justify-content: center;
+    gap:20px;
+}
+
+.card2{
+    margin-top: 100px;
+    padding: 50px 0 30px 40px;
+    background-color: #1e1e1e;
+    color: white;
+    width:300px;
+}
+
+.card2.red{
+    background-color: #c91b28;
+}
+
+.card2 h3.card-head{
+    font-size: 25px;
+}
+
+.card2 h6.card-head{
+    font-size: 17px;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.card2>button{
+    margin-top: 20px;
+    background-color:transparent;
+    border:none;
+    color:#c91b28;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card2>button.sec{
+    color:white;
+}
+
+
+
+.bottom-section-2{
+    display:flex;
+    justify-content: center;
+    width:95vw;
+    height:50vh;
+    margin-top: 100px;
+}
+
+
+.section11{
+    width:50vw;
+    text-align: right;
+}
+
+.section11>h1{
+    margin-top: 50px;
+    font-family: Righteous;
+    position: relative;
+    right:80px;
+    font-size:150px;
+    font-weight: bold;
+    color:#c91b28;
+}
+
+h3.intro2{
+    font-size:30px;
+    font-weight: bold;
+    color:white;
+}
+.section12{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    color:white;
+    flex-wrap:wrap;
+}
+
+ .section12>div{
+    width:300px;
+    height:20vh;
+    background-color: #1e1e1e;
+    text-align: center;
+ }
+
+ .heading12{
+    font-family: Righteous;
+    padding-top: 20px;
+    font-weight: bold;
+    font-size: 50px;
+    color: #c91b28;
+ }
+ .content12{
+    font-size: 15px;
+    letter-spacing: 1.5px;
+ }
+
+/* <!-- Section 3--> */
+
+.section-3{
+    margin-top: 100px;
+}
+
+.section-3 .heading3{
+    color:white;
+    font-size: 40px;
+    font-family: "Archivo Black";
+    margin-top: 50px;
+    margin-left: 17%;
+    text-transform: uppercase;
+}
+
+.sub-heading3{
+    color:#ffffffbe;
+    margin-left: 17%;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.top-sec-3>button{
+    background-color: #c91b28;
+    border:none;
+    color:white;
+    font-size: 18px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 70%;
+    position: relative; 
+    top:-70px; 
+}
+
+
+.sub-sec3{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    flex-wrap: wrap;
+}
+
+.card-section-3>div.img3{
+    background-color: #1e1e1e;
+    text-align: center;
+    height:400px;
+    width:450px;
+}
+
+.img3>img{
+    margin-top:70px;
+    width: 400px;
+    height:250px;
+}
+
+.card-section-3>h3.card-head{
+    font-family: "Archivo Black";
+    margin-top: 40px;
+    font-size: 25px;
+    color: white;
+}
+
+
+
+.card-section-3>button{
+    margin-top: 10px;
+    background-color:transparent;
+    border:none;
+    color:#c91b28;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/* <!-- Section 4 --> */
+
+.cont-section-4{
+    background-color: #1e1e1e;
+    margin:  100px 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section-4 .heading4{
+    color:white;
+    font-size: 40px;
+    font-family: "Poppins";
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+.content4{
+    color:#ffffffbe;
+    margin-left: 5%;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.cont-section-4>button{
+    background-color: #c91b28;
+    border:none;
+    color:white;
+    font-size: 18px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 70%;
+    position: relative; 
+    top:-120px; 
+}
+
+
+/* <!-- Section 5 --> */
+
+.nav-section-5{
+    color:white;
+    text-align: center;
+    word-spacing: 30px;
+    font-size: 15px;
+    font-family: "Archivo Black";
+    text-transform: uppercase;
+    margin-bottom: 20px;
+   
+}
+
+.log-sec-5{
+    background-color: #1e1e1e;
+    
+}
+.logo-footer1{
+    margin-top: 20px;
+    width: 80px;
+    margin-left: 15%;
+    filter: invert(16%) sepia(99%) saturate(7404%) hue-rotate(4deg) brightness(95%) contrast(118%);
+}
+
+
+.logo-footer2>i{
+    color:white;
+    position: relative;
+    left:40%;
+    margin-left: 60px;
+    top:-20px;
+}
+
+
